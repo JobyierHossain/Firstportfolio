@@ -1,0 +1,329 @@
+/* Universal CSS Start  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: open Sans;
+}
+/* Universal CSS end */
+/* header start  */
+.header{
+    /* width: 1600px; */
+    height:600px;
+    background-color:azure; 
+    /* background-image: url("images/developer.png"),url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: left,bottom right;  */
+     background-image: url("images/background.jpg");
+
+}
+/* navber start  */
+.navber{
+       display: flex;
+       justify-content: space-between;
+        padding: 40px 200px ; 
+        color: whitesmoke;
+      
+}
+.nav-logo{
+       text-shadow: 0px 4px 4px  rgb(17, 199, 35);
+       font-size: 35px;
+       font-weight: 700;
+       margin-right:50px;
+}
+.color-text{
+    color: rgb(64, 224, 112);
+}
+nav ul{
+       display: flex;
+       align-items: center;
+}
+nav li{
+       list-style: none;
+       margin-left: 40px;
+}
+ a{
+    text-decoration: none;
+    color: whitesmoke;
+     font-size: 15px;  
+     /* font-weight: 400px;  */
+    padding: 5px;
+} 
+ul li a:hover{
+       background-color: greenyellow;
+       border-radius: 20px;
+         padding: 5px;
+       color: blue;
+       /* margin: 10px; */
+      
+
+}
+.button-primary{
+       width: 160px;
+       height: 45px;
+       border: 0;
+       padding: 15px 30px 16px 31px;
+       border-radius: 5px;
+       font-size: 15px;
+       font-weight: 700;
+       color: azure;
+       background-color: orangered;
+}
+ /* navber End  */
+ /* banner start  */
+ .banner{
+       display: flex;
+      width: 70%;
+      align-items: center;
+      margin: 0 200px;
+ }
+ .banner-sub-title{
+       color: whitesmoke;
+       font-size:30px ;
+       font-weight: 500;
+ }
+ .banner-title{
+       color: whitesmoke;
+       font-size:65px ;
+       font-weight:600 ;
+       margin-bottom: 10px;
+ }
+ .banner-description{
+         color: wheat;
+         font-size: 10px;
+         font-weight: 400;
+         margin-bottom: 40px;
+          width: 50%; 
+ }
+
+
+ /* banner End  */
+/* header end */
+
+ /* section Start  */
+main{
+     max-width: 800px;
+     /* height: 900px; */
+      margin:0px 250px; 
+}
+.section-title{
+      color: #352929;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 30px;
+}
+.section-description{
+       color: #474747;
+       text-align: center;
+       font-size: 14px;
+       margin: 20px 10px;
+       padding-bottom: 20px;
+}
+/* section End */
+
+ /* About start*/
+ .about{
+        border-radius: 50px ; 
+        background-color:antiquewhite;
+        box-shadow: 7px 7px 7px 7px rgb(217, 164, 173) ;
+         margin-top: 80px;
+        text-align: center; 
+         padding: 80px 90px; 
+        
+ }
+.about-info-container{
+         display: flex; 
+         justify-content:space-between;
+}
+.about-info{
+       margin-bottom: 70px;
+}
+  
+.info-title{
+        color: #241c1c; ;
+        text-align:center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+}
+.info-description{
+        color: #695c5c;
+        font-size: 14px;
+        font-weight: 500;
+}
+
+ /* About End */
+/* My Work start */
+.what-i-do{
+        margin-top: 90px;
+        margin-bottom: 100px;
+        background-color:antiquewhite;
+        box-shadow: 7px 7px 7px 7px rgb(217, 164, 173) ;
+        padding: 60px 60px 20px 60px;
+        border-radius: 105px;
+        
+}
+.skills-container{
+    display: flex;
+    gap: 40px;
+    /* border-radius: 80px; */
+}
+.skill-list{
+   
+}
+.skill{
+      background-color:rgb(135, 247, 209);
+      box-shadow: 0px 5px 30px rgb(111, 13, 202);
+      margin-bottom: 100px;
+      margin-left:9px;
+      border-radius: 70px;
+      padding: 30px;
+      
+}     
+.skill-title{
+     font-size: 15px;
+     font-weight: 600;
+     margin-top: 30px;
+     margin-bottom: 20px;
+}
+.skill-description{
+       color: #1b1818;
+       font-size: 12px;
+       font-weight: 400;
+}
+
+/* what i do end */
+
+/* My Educational Resume Start  */
+.resume{
+     border-radius: 400px 90px 400px 75px;
+     background-color:antiquewhite ;
+     box-shadow: 7px 7px 7px 7px rgb(217, 164, 173) ;
+     padding: 70px;
+     margin-left: 20px;
+     height:600px ;
+}
+
+
+.resume-list{
+       display: flex;
+       justify-content: space-between;
+       
+}       
+.resume-title{
+       color: #352929;
+       font-size: 30px;
+       font-weight: 700;
+       margin-bottom: 60px;
+       padding-left:30px;
+       padding-top: 30px;
+      
+}
+.resume-item{
+        margin-bottom: 30px;
+        padding: 30px;
+        border-radius: 80px;
+        box-shadow: 4px 3px 6px 4px rgb(20, 20, 187) ;
+        background-color: aquamarine;
+}
+
+
+.title{
+       color: #352929;
+       font-size: 15px;
+       font-weight: 600;
+       margin-bottom: 15px;
+}
+.sub-title{
+        color: #1c1616;
+        font-size: 13px;
+        font-weight: 550;
+        margin-bottom: 20px;
+}
+.resume-description{
+       color: #757575;
+       font-size: 11px;
+}
+
+.resume-btn{
+text-align: center;
+margin-top: 50px;
+}
+/* My Educational Resume end*/
+
+
+ /* My Expreience Resume  start  */
+.resume-content{
+       background-color: antiquewhite;
+        margin-top: 95px;
+         padding: 60px; 
+         height: 600px; 
+        margin-left: 20px;
+        border-radius: 400px 400px 400px 400px;
+        box-shadow: 7px 7px 7px 7px rgb(217, 164, 173) ;
+        
+}
+.content-list{
+       display: flex;
+        /* justify-content: space-between;   */
+}
+.content-item{
+      background-color: aquamarine;
+      border-radius: 80px;
+      box-shadow: 4px 3px 6px 4px rgb(20, 20, 187) ;
+      padding: 30px;
+}
+.content-title{
+      margin-bottom: 30px;
+      
+}
+
+.content-description{
+       margin-bottom: 60px;
+}
+
+
+ /* My Expreience Resume  end  */
+
+/* footer start  */
+.footer-contact{
+       display: flex;
+       margin-top: 95px;
+       background: goldenrod;
+       padding: 50px 90px;
+       margin-bottom: 10px;
+       border-radius: 60px;
+        height: 580px; 
+       gap: 120px;
+      
+}
+.item li{
+       list-style: none;
+}
+
+.footer-contact a{
+        margin-right: 24px;
+       
+}
+.footer-contact .section-title{
+       text-align: left;
+      
+}
+.footer-contact input[type="text"],input[type="email"],textarea{
+        margin-bottom: 24px;
+        width: 100%;
+        border: 0;
+        border-radius: 5px;
+        background: #fff;
+        padding: 10px 30px;
+       
+}
+input{
+    height: 54px;
+}
+/* End footer */
+
+
+
